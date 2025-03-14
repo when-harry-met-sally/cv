@@ -1,89 +1,58 @@
 # Miles Moran's CV
 
-- Phone: +1 609 999 9995
-- Email: [john.doe@example.com](mailto:john.doe@example.com)
-- Location: Location
-- LinkedIn: [john.doe](https://linkedin.com/in/john.doe)
-- GitHub: [john.doe](https://github.com/john.doe)
+- Phone: +1 314 390 8436
+- Email: [milesmoran.mu@gmail.com](mailto:milesmoran.mu@gmail.com)
+- Location: Chicago, IL
+- Website: [sphinxy.dev](https://sphinxy.dev/)
+- LinkedIn: [miles-moran-71273716a](https://linkedin.com/in/miles-moran-71273716a)
+- GitHub: [when-harry-met-sally](https://github.com/when-harry-met-sally)
 
 
-# Welcome to RenderCV!
+# About Me
 
-[RenderCV](https://rendercv.com) is a Typst-based CV framework designed for academics and engineers, with Markdown syntax support.
+I am a software engineer with a strong focus on backend systems, distributed workflows, and developer tooling.
 
-Each section title is arbitrary. Each section contains a list of entries, and there are 7 different entry types to choose from.
+I am very interested in gaining deeper insights into functional programming, type systems, and lower-level languages.
 
 # Education
 
-## Stanford University, PhD in Computer Science
+## LaunchCode, Certificate Program in Software Engineering
 
-- Sept 2023 – present
-- Stanford, CA, USA
-- Working on the optimization of autonomous vehicles in urban environments
-
-## Boğaziçi University, BS in Computer Engineering
-
-- Sept 2018 – June 2022
-- Istanbul, Türkiye
-- GPA: 3.9/4.0, ranked 1st out of 100 students
-- Awards: Best Senior Project, High Honor
+- Jan 2017 – June 2017
+- Saint Louis, Missouri
+- Learned foundational concepts of programming, algorithms, and software development
+- Gained hands-on experience with Python and Java through structured coursework and projects
 
 # Experience
 
-## Company C, Summer Intern
+## KarmaCheck, Software Engineer
 
-- June 2024 – Sept 2024
-- Livingston, LA, USA
-- Developed deep learning models for the detection of gravitational waves in LIGO data
-- Published [3 peer-reviewed research papers](https://example.com) about the project and results
+- June 2021 – present
+- San Francisco, California (Remote)
+- Designed and implemented distributed workflows using Temporal, reducing processing latency and improving scalability.
+- Developed event-driven microservices using TypeScript, AWS EventBridge, DynamoDB, and MySQL.
+- Designed and implemented a clinic recommendation algorithm, leveraging geospatial data, business rules, and patient preferences to optimize provider selection.
+- Automated end-to-end workflows using Playwright, reducing manual effort in testing and data extraction for web-based processes.
+- Automated deployment pipelines using GitHub Actions, Docker, and 'Serverless Framework'
+- Integrated queue-based asynchronous processing using AWS SQS and Lambda to handle thousands of background checks concurrently.
 
-## Company B, Summer Intern
+## Ellem Laboratories, Software Engineer
 
-- June 2023 – Sept 2023
-- Ankara, Türkiye
-- Optimized the production line by 15% by implementing a new scheduling algorithm
+- Sept 2019 – Aug 2020
+- Saint Louis, Missouri
+- Developed web applications with Python and Coldfusion.
 
-## Company A, Summer Intern
+## UniGroup, QDivision Apprentice (Internship)
 
-- June 2022 – Sept 2022
-- Istanbul, Türkiye
-- Designed an inventory management web application for a warehouse
-
-# Projects
-
-## [Example Project](https://example.com)
-
-- May 2024 – present
-- Launched an [iOS app](https://example.com) in 09/2024 that currently has 10k+ monthly active users
-- The app is made open-source (3,000+ stars [on GitHub](https://github.com))
-
-## [Teaching on Udemy](https://example.com)
-
-- Fall 2023
-- Instructed the "Statics" course on Udemy (60,000+ students, 200,000+ hours watched)
+- May 2019 – Sept 2019
+- Saint Louis, Missouri
+- Developed small applications using JavaScript and Java, learning best practices in software design.
+- Gained hands-on experience in data structures, algorithms, and object-oriented programming.
 
 # Skills
 
-- Programming: Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps
-- Mathematics: Good understanding of differential equations, calculus, and linear algebra
-- Languages: English (fluent, TOEFL: 118/120), Turkish (native)
-# Publications
-
-## 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
-- Jan 2004
-- Frodo Baggins, ***John Doe***, Samwise Gamgee
-
-# Extracurricular Activities
-
-- There are 7 unique entry types in RenderCV: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.
-- Each entry type has a different structure and layout. This document demonstrates all of them.
-# Numbered Entries
-
-- This is a numbered entry.
-- This is another numbered entry.
-- This is the third numbered entry.
-# Reversed Numbered Entries
-
-- This is a reversed numbered entry.
-- This is another reversed numbered entry.
-- This is the third reversed numbered entry.
+- Programming: Proficient in JavaScript/TypeScript; experience with Java, Python, Lua, and Haskell.
+- Systems & DevOps: AWS (Lambda, SQS, DynamoDB, RDS, CDK, ECS, CloudWatch), Serverless Framework, Temporal.
+- Testing: Playwright, Vitest
+- Databases: MySQL, DynamoDB
+- Languages: English (fluent), Spanish (conversational)

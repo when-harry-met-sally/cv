@@ -17,7 +17,7 @@
 #let design-section-titles-bold = true
 #let design-section-titles-line-thickness = 0.5pt
 #let design-section-titles-font-size = 1.2em
-#let design-section-titles-type = "with-parial-line"
+#let design-section-titles-type = "with-full-line"
 #let design-section-titles-vertical-space-above = 0.55cm
 #let design-section-titles-vertical-space-below = 0.3cm
 #let design-section-titles-small-caps = false
@@ -451,25 +451,26 @@
 
 // Print connections:
 #let connections-list = (
-  [Location],
-  [#box(original-link("mailto:john.doe@example.com")[john.doe\@example.com])],
-  [#box(original-link("tel:+1-609-999-9995")[\(609\) 999-9995])],
-  [#box(original-link("https://linkedin.com/in/john.doe")[linkedin.com\/in\/john.doe])],
-  [#box(original-link("https://github.com/john.doe")[github.com\/john.doe])],
+  [Chicago, IL],
+  [#box(original-link("mailto:milesmoran.mu@gmail.com")[milesmoran.mu\@gmail.com])],
+  [#box(original-link("tel:+1-314-390-8436")[\(314\) 390-8436])],
+  [#box(original-link("https://sphinxy.dev/")[sphinxy.dev])],
+  [#box(original-link("https://linkedin.com/in/miles-moran-71273716a")[linkedin.com\/in\/miles-moran-71273716a])],
+  [#box(original-link("https://github.com/when-harry-met-sally")[github.com\/when-harry-met-sally])],
 )
 #connections(connections-list)
 
 
 
-== Welcome to RenderCV!
+== About Me
 
 
 #one-col-entry(
-  content: [#link("https://rendercv.com")[RenderCV] is a Typst-based CV framework designed for academics and engineers, with Markdown syntax support.]
+  content: [I am a software engineer with a strong focus on backend systems, distributed workflows, and developer tooling.]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [Each section title is arbitrary. Each section contains a list of entries, and there are 7 different entry types to choose from.]
+  content: [I am very interested in gaining deeper insights into functional programming, type systems, and lower-level languages.]
 )
 
 
@@ -479,37 +480,18 @@
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
-    #strong[Stanford University], PhD in Computer Science -- Stanford, CA, USA
+    #strong[LaunchCode], Certificate Program in Software Engineering -- Saint Louis, Missouri
   ],
   right-content: [
-    Sept 2023 – present
+    Jan 2017 – June 2017
   ],
 )
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([Working on the optimization of autonomous vehicles in urban environments],)
-  ],
-  inset: (
-    left: design-entries-left-and-right-margin,
-    right: design-entries-left-and-right-margin,
-  ),
-)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A coding bootcamp focused on the fundamentals of software engineering.])], column-gutter: 0cm)
 
-#v(design-entries-vertical-space-between-entries)
-// YES DATE, NO DEGREE
-#two-col-entry(
-  left-content: [
-    #strong[Boğaziçi University], BS in Computer Engineering -- Istanbul, Türkiye
-  ],
-  right-content: [
-    Sept 2018 – June 2022
-  ],
-)
-#block(
-  [
-    #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([GPA: 3.9\/4.0, ranked 1st out of 100 students],[Awards: Best Senior Project, High Honor],)
+  #v(design-highlights-top-margin);#highlights([Learned foundational concepts of programming, algorithms, and software development],[Gained hands-on experience with Python and Java through structured coursework and projects],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -524,81 +506,51 @@
 
 #two-col-entry(
   left-content: [
-    #strong[Summer Intern], Company C -- Livingston, LA, USA
+    #strong[Software Engineer], KarmaCheck -- San Francisco, California \(Remote\)
   ],
   right-content: [
-    June 2024 – Sept 2024
+    June 2021 – present
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed deep learning models for the detection of gravitational waves in LIGO data],[Published #link("https://example.com")[3 peer-reviewed research papers] about the project and results],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Working on large-scale, high-performance backend systems for background screening, data orchestration, and automation.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed and implemented distributed workflows using Temporal, reducing processing latency and improving scalability.],[Developed event-driven microservices using TypeScript, AWS EventBridge, DynamoDB, and MySQL.],[Designed and implemented a clinic recommendation algorithm, leveraging geospatial data, business rules, and patient preferences to optimize provider selection.],[Automated end-to-end workflows using Playwright, reducing manual effort in testing and data extraction for web-based processes.],[Automated deployment pipelines using GitHub Actions, Docker, and 'Serverless Framework'],[Integrated queue-based asynchronous processing using AWS SQS and Lambda to handle thousands of background checks concurrently.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Summer Intern], Company B -- Ankara, Türkiye
+    #strong[Software Engineer], Ellem Laboratories -- Saint Louis, Missouri
   ],
   right-content: [
-    June 2023 – Sept 2023
+    Sept 2019 – Aug 2020
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Optimized the production line by 15\% by implementing a new scheduling algorithm],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Built and maintained applications for a small consulting startup])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed web applications with Python and Coldfusion.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Summer Intern], Company A -- Istanbul, Türkiye
+    #strong[QDivision Apprentice \(Internship\)], UniGroup -- Saint Louis, Missouri
   ],
   right-content: [
-    June 2022 – Sept 2022
+    May 2019 – Sept 2019
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Designed an inventory management web application for a warehouse],)
-  ],
-)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Learned and applied core computer science concepts while developing internal software tools.])], column-gutter: 0cm)
 
-
-
-== Projects
-
-
-#two-col-entry(
-  left-content: [
-    #link("https://example.com")[#strong[Example Project]] 
-  ],
-  right-content: [
-    May 2024 – present
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A web application for writing essays])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Launched an #link("https://example.com")[iOS app] in 09\/2024 that currently has 10k+ monthly active users],[The app is made open-source \(3,000+ stars #link("https://github.com")[on GitHub]\)],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #link("https://example.com")[#strong[Teaching on Udemy]] 
-  ],
-  right-content: [
-    Fall 2023
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Instructed the \"Statics\" course on Udemy \(60,000+ students, 200,000+ hours watched\)],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed small applications using JavaScript and Java, learning best practices in software design.],[Gained hands-on experience in data structures, algorithms, and object-oriented programming.],)
   ],
 )
 
@@ -608,76 +560,23 @@
 
 
 #one-col-entry(
-  content: [#strong[Programming:] Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps]
+  content: [#strong[Programming:] Proficient in JavaScript\/TypeScript; experience with Java, Python, Lua, and Haskell]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Mathematics:] Good understanding of differential equations, calculus, and linear algebra]
+  content: [#strong[Systems & DevOps:] AWS \(Lambda, SQS, DynamoDB, RDS, CDK, ECS, CloudWatch\), Serverless Framework, Temporal]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Languages:] English \(fluent, TOEFL: 118\/120\), Turkish \(native\)]
-)
-
-
-== Publications
-
-
-#two-col-entry(
-  left-content: [
-    #strong[3D Finite Element Analysis of No-Insulation Coils]
-
-  ],
-  right-content: [
-    Jan 2004
-  ],
-)
-#one-col-entry(content:[
-#v(design-highlights-top-margin);Frodo Baggins, #strong[#emph[John Doe]], Samwise Gamgee
-
-#v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.1109/TASC.2023.3340648")[10.1109/TASC.2023.3340648]])
-
-
-
-== Extracurricular Activities
-
-
-#one-col-entry(
-  content: [- There are 7 unique entry types in RenderCV: #emph[BulletEntry], #emph[TextEntry], #emph[EducationEntry], #emph[ExperienceEntry], #emph[NormalEntry], #emph[PublicationEntry], and #emph[OneLineEntry].],
+  content: [#strong[Testing:] Playwright, Vitest]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- Each entry type has a different structure and layout. This document demonstrates all of them.],
+  content: [#strong[Databases:] MySQL, DynamoDB]
 )
-
-
-== Numbered Entries
+#v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [
-
-
-+ This is a numbered entry.
-+ This is another numbered entry.
-+ This is the third numbered entry.
-
-  ],
+  content: [#strong[Languages:] English \(fluent\), Spanish \(conversational\)]
 )
 
-== Reversed Numbered Entries
-#one-col-entry(
-  content: [
-    #let rev-enum-items = (
-
-
-[This is a reversed numbered entry.],
-[This is another reversed numbered entry.],
-[This is the third reversed numbered entry.],
-
-  )
-  #enum(
-    numbering: n => [#{rev-enum-items.len() + 1 - n}.],
-    ..rev-enum-items,
-  )
-  ],
-)
 

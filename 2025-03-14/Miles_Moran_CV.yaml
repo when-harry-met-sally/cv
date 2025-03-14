@@ -95,7 +95,6 @@ design:
     name_font_family: XCharter
     name_font_size: 25pt
     name_bold: false
-    small_caps_for_name: false
     photo_width: 3.5cm
     vertical_space_between_name_and_connections: 0.7cm
     vertical_space_between_connections_and_first_section: 0.7cm
@@ -103,8 +102,6 @@ design:
     connections_font_family: XCharter
     separator_between_connections: '|'
     use_icons_for_connections: false
-    use_urls_as_placeholders_for_connections: true
-    make_connections_links: true
     alignment: center
   section_titles:
     type: with-full-line
@@ -126,7 +123,6 @@ design:
     show_time_spans_in: []
   highlights:
     bullet: •
-    nested_bullet: '-'
     top_margin: 0.25cm
     left_margin: 0cm
     vertical_space_between_highlights: 0.19cm
